@@ -1,0 +1,141 @@
+*{margin: 0px;
+padding: 0px;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* utilities */
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*header*/
+div.hero{
+    background-image: url(img/bg-resumen.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav.social-media{text-align: center}
+
+
+nav.social-media a{
+    color: white;
+font-size: 2rem;
+margin-right: 2rem;
+}
+
+/* header positioning */
+div.personal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.sitename{
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 11vh;
+    text-align: center;
+}
+.position{
+color: white;
+font-size: 11vh;
+text-align: center;
+}
+p.city,p.date{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+p.city i,p.date i{
+    color: rgb(141, 187, 187);
+}
+
+/* body */
+
+nav.project-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 10vh;
+}
+.bottom-links{
+    background-color: darkcyan;
+}
+a.home, a.projects, a.test{
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+div.bio{
+    background-color: rgb(160, 179, 179);
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+h1.body-bio{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-shadow:1px 1px 1px rgb(141, 187, 187);
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-shadow:1px 1px 1px rgb(141, 187, 187);
+    font-weight: 600;
+}
+
+/*    Projects Site    */
+li{
+    text-decoration-color: darkcyan;
+    text-shadow:1px 1px 1px rgb(141, 187, 187);
+    padding: 2vh;
+}
+li.top{
+     padding-top: 5vh;
+}
+ins.top{
+    color: red;
+    text-decoration: none;
+    font-weight: 300;
+}
+ins{
+    color: green;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/*   Contact Page    */
+
+p.contact-p{
+    padding-top: 2rem;
+}
+div.contact-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.Email{
+    text-decoration: underline;
+    padding-left: 6rem;
+    color: black;
+}
+div.number{
+    margin-top: -3rem;
+}
+p.number{
+    padding-left: 2.3rem;
+}
